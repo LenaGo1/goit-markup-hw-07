@@ -12,3 +12,10 @@
     color: $accent-color;
   }
 }
+.logo {
+  .footer-contacts & {
+    margin-bottom: 20px;
+    display: block;
+    color: $second-accent-color;
+  }
+}

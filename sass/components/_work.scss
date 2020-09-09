@@ -16,15 +16,19 @@
   letter-spacing: 0.03em;
   margin: 0 0 50px;
 }
-.work-list .title {
-  color: $second-accent-color;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.work-list {
+  .title {
+    color: $second-accent-color;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
 }
+
 .work-overlay {
   position: absolute;
   bottom: 0;
@@ -36,6 +40,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .work-image {
   display: block;
 }

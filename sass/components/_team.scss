@@ -5,7 +5,18 @@
 .team-list {
   display: flex;
   flex-wrap: wrap;
+
+  .member-name {
+    color: $second-text-color;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
 }
+
 .team-item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
@@ -16,34 +27,29 @@
   &:nth-child(4n) {
     margin-right: 0;
   }
+
+  .member-description {
+    padding-top: 30px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    background-color: $primary-background-color;
+    border-radius: 0px 0px 4px 4px;
+
+    text-align: center;
+  }
+
+  .image {
+    display: block;
+  }
 }
 
-.team-item .member-description {
-  padding-top: 30px;
-  padding-right: 32px;
-  padding-bottom: 24px;
-  padding-left: 32px;
-  background-color: $primary-background-color;
-  border-radius: 0px 0px 4px 4px;
-
-  text-align: center;
-}
-.team-list .member-name {
-  color: $second-text-color;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-p .position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.team-item .image {
-  display: block;
+p {
+  .position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
 }
