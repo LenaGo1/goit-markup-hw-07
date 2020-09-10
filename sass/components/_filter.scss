@@ -24,10 +24,12 @@
 .hidden-title {
   display: none;
 }
+
 .filter .list {
   display: flex;
   justify-content: center;
 }
+
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
